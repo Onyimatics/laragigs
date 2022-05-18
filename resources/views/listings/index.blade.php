@@ -14,5 +14,9 @@
     @else
     <p>No Listings Found</p>
     @endunless
- </div>
+</div>
+
+<div class="mt-6 p-4">
+    {{$listings->links()}}
+</div>
 </x-layout>
